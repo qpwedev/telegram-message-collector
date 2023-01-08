@@ -11,8 +11,8 @@ def read_config():
 
 API_ID, API_HASH, CHAT_ID = read_config()
 
-if "<YOUR_VALUE>" in [API_ID, API_HASH]:
-    print("Please enter your API ID and API HASH in the config.json file.")
+if "<YOUR_VALUE>" in [API_ID, API_HASH, CHAT_ID]:
+    print("Please enter your API ID, CHAT_ID and API HASH in the config.json file.")
     exit(1)
 
 app = Client("my_account", int(API_ID), API_HASH)
