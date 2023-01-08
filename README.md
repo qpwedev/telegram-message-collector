@@ -40,7 +40,6 @@ pip install -r requirements.txt
 
 Finally, run the script:
 
-1. Copy code
 ```
 python3 ./src/run.py
 ```
