@@ -5,7 +5,6 @@ This python project allows you to collect all incoming messages in a dedicated T
 The project uses a config.json file with the following data:
 
 ```
-Copy code
 {
     "API_ID": "<YOUR_VALUE>",
     "API_HASH": "<YOUR_VALUE>",
