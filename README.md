@@ -31,7 +31,8 @@ To get the `CHAT_ID` of a channel in Telegram, you can use the `@username_to_id_
 To use this project, clone the repository and install the required dependencies:
 
 1. Copy code
-``` git clone https://github.com/<your_username>/TelegramMessageCollector.git
+``` 
+git clone https://github.com/<your_username>/TelegramMessageCollector.git
 cd TelegramMessageCollector
 pip3 install -r requirements.txt 
 ```
