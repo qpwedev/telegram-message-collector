@@ -6,7 +6,7 @@ import json
 def read_config():
     with open("./config.json") as f:
         config = json.load(f)
-        return config["API_ID"], config["API_HASH"], config["CHAT_ID"]
+        return config["API_ID"], config["API_HASH"], int(config["CHAT_ID"])
 
 
 API_ID, API_HASH, CHAT_ID = read_config()
