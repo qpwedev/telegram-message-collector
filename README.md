@@ -1,5 +1,8 @@
-# Telegram Message Collector
-Allows you to collect all incoming messages in a dedicated Telegram channel. It runs on Python 3 and uses the Pyrogram library.
+<p align="center" style="color: #444">
+  <h1 align="center">📨 Telegram Message Collector</h1>
+</p>
+<p align="center" style="font-size: 1.2rem;">Collect all incoming messages in a dedicated Telegram channel</p>
+
 
 ## Configuration
 The project uses a config.json file with the following data:
