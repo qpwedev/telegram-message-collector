@@ -3,6 +3,8 @@
 </p>
 <p align="center" style="font-size: 1.2rem;">Collect all incoming messages in a dedicated Telegram channel</p>
 
+> **Warning**
+> Abusing the API capabilities may lead to your Telegram account being blocked
 
 ## Configuration
 The project uses a config.json file with the following data:
